@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">lifelistpro</string>
+    <string name="title_activity_main">lifelistpro</string>
+    <string name="package_name">com.judsondesigns.lifelistpro</string>
+    <string name="custom_url_scheme">com.judsondesigns.lifelistpro</string>
+</resources>

@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+:root {
+  /* Existing safe-area vars */
+  --sat: env(safe-area-inset-top, 0px);
+  --sar: env(safe-area-inset-right, 0px);
+  --sab: env(safe-area-inset-bottom, 0px);
+  --sal: env(safe-area-inset-left, 0px);
+
+  /* Extra padding for Android system UI */
+  --android-top-pad: 16px;
+  --android-bottom-pad: 20px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: linear-gradient(
+    180deg,
+    #f2f4f8 0%,
+    #eef1f6 100%
+  );
+}
+
+body {
+  background: #f6f6f6;
+}
