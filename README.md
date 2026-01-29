@@ -208,45 +208,39 @@ Script definition:
 ## Recommended First-Time Setup Order
 
 1. Install dependencies
-    ```bash
+
     npm install
-    ```
+
 2. Run locally in browser
-    ```bash
+
     npm run start
-    ```
+
 3. Build web assets
-    ```bash
+
     npm run build
-    ```
+
 4. Sync and open native projects
 
 Android:
-    ```bash
+
     npm run sync:android
     npm run open:android
-    ```
 
 iOS (macOS only):
 
-    ```bash
     npm run sync:ios
     npm run open:ios
-    ```
 
 5. Authenticate Capawesome and verify channels
-    ```bash
+
     npm run cap:login
     npm run list:channels
-    ```
 
 6. Upload Live Updates as needed
-    
-    ```bash
+
     npm run live:update:demo
     npm run live:update:beta
     npm run live:update:production
-    ```
 
 ---
 
@@ -261,7 +255,6 @@ The configuration file is typically located at:
 
 ### Example Configuration
 
-    ```typescript
     import type { CapacitorConfig } from '@capacitor/cli';
 
     const config: CapacitorConfig = {
@@ -282,7 +275,6 @@ The configuration file is typically located at:
     };
 
     export default config;
-    ```
 
 ### Configuration Breakdown
 
