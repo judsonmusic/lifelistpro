@@ -11,7 +11,10 @@
     "sync:ios": "npx cap sync ios",
     "open:android": "npx cap open android",
     "open:ios": "npx cap open ios",
-    "live:update": "npx @capawesome/cli apps:liveupdates:upload --app-id a6042cc3-81a9-432a-887e-0540f292a861 --channel demo --path dist/lifelistpro/browser"
+    "list:channels": "npx @capawesome/cli apps:liveupdates:channels --app-id a6042cc3-81a9-432a-887e-0540f292a861",
+    "live:update:demo": "npm run build && npx @capawesome/cli apps:liveupdates:upload --app-id a6042cc3-81a9-432a-887e-0540f292a861 --channel demo --path dist/lifelistpro/browser",
+    "live:update:beta": "npm run build && npx @capawesome/cli apps:liveupdates:upload --app-id a6042cc3-81a9-432a-887e-0540f292a861 --channel beta --path dist/lifelistpro/browser",
+    "live:update:production": "npm run build && npx @capawesome/cli apps:liveupdates:upload --app-id a6042cc3-81a9-432a-887e-0540f292a861 --channel production --path dist/lifelistpro/browser"
   },
   "private": true,
   "dependencies": {
